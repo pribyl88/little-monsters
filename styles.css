@@ -1,18 +1,18 @@
 /* Site-Wide Elements */
 body {
-
+    color: #1F2937;
+    font-family: roboto, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-
+    margin: 0;
 }
 
 h1.light {
-    
-}
-
-h2 {
-
+    color: #F9FAF8;
 }
 
 h3 {
@@ -20,50 +20,88 @@ h3 {
 }
 
 h3.light {
-
+    color: #F9FAF8;
 }
 
 p {
-
+    margin: 10px 0px;
 }
 
 p.light {
+    color: #E5E7EB;
+}
 
+a {
+    text-decoration: none;
+}
+
+a.light {
+    color: #E5E7EB;
 }
 
 /* Header */
 .header {
-
+    background-color: #1F2937;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }
 
 .header > p {
-
+    margin: 5px 0px 5px 150px;
 }
 
 .header > ul {
-
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    gap: 18px;
+    padding: 0px;
+    margin: 0px 150px 0px 0px;
 }
 
 /* Hero Section */
 .hero {
+    background-color: #1F2937;
+    padding: 50px 150px;
+    display: flex;
+    flex: 1 1 0;
+    gap: 50px;
+}
 
+.hero .left {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero > h1 {
-
+    margin: 0;
 }
 
 .hero > p {
+    margin-top: 10px;
+}
 
+.hero-image > img {
+    width: 375px;
+    height: auto;
 }
 
   /* Button Styling */
 button {
-
+    color: #f9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 3pt;
+    border-style: none;
+    padding: 5px 25px;
+    max-width: 200px;
 }
 
 .secondary-button {
-
+    border: solid white 2px;
 }
 
 .hero > img {
@@ -72,29 +110,49 @@ button {
 
 /* Detail Section */
 .container {
-
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 200px;
+    flex-wrap: wrap;
 }
 
 .detail {
-
+    text-align: center;
+    max-width: 100px;
 }
 
 .detail > img {
-
+    width: 100px;
+    height: 100px;
+    border: solid 3px #3882F6;
+    border-radius: 8pt;
 }
 
 /* Quote Section */
 .quote {
-
+    background-color: #E5E7EB;
+    padding: 80px 150px;
 }
 
 /* CTA Section */
 .cta {
-
-}
-
-.cta > h3 {
-
+    background-color: #3882F6;
+    border-radius: 3pt;
+    margin: 30px 150px;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
